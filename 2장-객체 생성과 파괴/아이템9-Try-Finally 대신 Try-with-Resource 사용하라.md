@@ -82,7 +82,7 @@ public class AppRunner {
 
 ![사진2](./아이템9장Image/Image2.png)
 
-finally를 제거하고 try에 Resource를 ****넣어준다.
+finally를 제거하고 try에 Resource를 넣어준다.
 그러나 단순히 이것만 진행을 하면 Close가 없어 AutoCloseable을 이용하라는 에러가 나타난다.
 
 ```java
