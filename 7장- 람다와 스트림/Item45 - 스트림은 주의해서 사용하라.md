@@ -38,7 +38,9 @@
 - 스트림으로 하기 어려운 것들 :
     - 한 데이터가 파이프라인의 여러단계(stage) 를 통과할 때 이 데이터의 각 단게에서의 값들에 동시에 접근하기 어려운 경우.
     - char 값들을 처리할 때는 스트림을 삼가는 편이 낫다.
-
+ 
+ 
+ 아래는 스트림과 일반 for 문에 대한 예제
 ```java
 private static List<Card> newDeck() {
 	List<Card> result = new ArrayList<>();
